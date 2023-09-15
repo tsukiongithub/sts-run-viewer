@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Slay the Spire";
+  src: url("/font/Kreon-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Slay the Spire";
+  src: url("/font/Kreon-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Slay the Spire";
+  src: url("/font/ZillaSlab-RegularItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
